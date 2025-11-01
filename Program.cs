@@ -27,12 +27,6 @@ var todoItems = app.MapGroup("/learnings");
 //home
 app.MapGet("/", () => "Hello World!");
 
-//TypedResults 
-static Task<IResult> GetAllTodos(ILearningService learningService)
-{
-    return System.Threading.Tasks.Task.FromResult<IResult>(TypedResults.Ok(learningService.GetAll()));
-}
-
 //get all Learnings
 todoItems.MapGet("/", async (ILearningService service) => await service.GetAll());
 
