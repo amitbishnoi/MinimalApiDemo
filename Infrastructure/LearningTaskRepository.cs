@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Minimal_API_day_1.Application;
 using Minimal_API_day_1.Data;
 using Minimal_API_day_1.Domain;
-using Minimal_API_day_1.Infrastructure;
 
-namespace Minimal_API_day_1
+namespace Minimal_API_day_1.Infrastructure
 {
     public class LearningTaskRepository : EfRepository<LearningTask>, ILearningTaskRepository
     {

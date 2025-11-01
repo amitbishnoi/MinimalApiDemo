@@ -1,6 +1,7 @@
 ﻿namespace Minimal_API_day_1.Infrastructure
 {
     using Microsoft.EntityFrameworkCore;
+    using Minimal_API_day_1.Application;
     using Minimal_API_day_1.Data;
 
     public class EfRepository<T> : IRepository<T> where T : class

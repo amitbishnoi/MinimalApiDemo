@@ -1,6 +1,6 @@
 ﻿using Minimal_API_day_1.Domain;
 
-namespace Minimal_API_day_1
+namespace Minimal_API_day_1.Application
 {
     public interface ILearningService
     {

@@ -1,4 +1,4 @@
-﻿namespace Minimal_API_day_1.Infrastructure
+﻿namespace Minimal_API_day_1.Application
 {
     public interface IRepository<T> where T : class
     {

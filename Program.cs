@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using Minimal_API_day_1;
+using Minimal_API_day_1.Application;
 using Minimal_API_day_1.Data;
 using Minimal_API_day_1.Domain;
 using Minimal_API_day_1.Infrastructure;
+using Minimal_API_day_1.Services;
+using Minimal_API_day_1.Shared;
 
 
 var builder = WebApplication.CreateBuilder(args);

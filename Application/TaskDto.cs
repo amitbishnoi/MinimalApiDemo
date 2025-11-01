@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Minimal_API_day_1
+namespace Minimal_API_day_1.Application
 {
     public class TaskDto
     {

@@ -1,4 +1,4 @@
-﻿namespace Minimal_API_day_1
+﻿namespace Minimal_API_day_1.Shared
 {
     public class ExceptionMiddleware
     {
@@ -11,7 +11,7 @@
             _logger = logger;
         }
 
-        public async System.Threading.Tasks.Task InvokeAsync(HttpContext context)
+        public async Task InvokeAsync(HttpContext context)
         {
             try
             {

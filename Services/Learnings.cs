@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Minimal_API_day_1.Application;
 using Minimal_API_day_1.Data;
 using Minimal_API_day_1.Domain;
-using Minimal_API_day_1.Infrastructure;
 using System.Threading.Tasks;
 
-namespace Minimal_API_day_1
+namespace Minimal_API_day_1.Services
 {
     public class Learnings : ILearningService
     {
