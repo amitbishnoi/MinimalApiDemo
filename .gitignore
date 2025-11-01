@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+appsettings.Development.json
+secrets.json
+.vscode/
+*.db
+.idea/
